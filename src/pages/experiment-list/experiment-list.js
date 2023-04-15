@@ -1,6 +1,6 @@
 import { useStylesExperimentList } from "./experiment-list.styles";
 import experiments from "./experiment-list.json";
-import { Typography, List, Card, CardContent } from "@material-ui/core";
+import { Typography, Card, CardContent } from "@material-ui/core";
 import NestedListItem from "../../components/nested-listitem/nested-listitem";
 
 const ExperimentList = () => {
