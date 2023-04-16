@@ -16,6 +16,7 @@ function addCheckboxToAlgorithmBar(boxLabel) {
 
   element.setAttribute("type", "checkbox");
   element.setAttribute("value", boxLabel);
+  
 
   var label = document.createTextNode(boxLabel);
 

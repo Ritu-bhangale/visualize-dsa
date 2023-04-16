@@ -226,6 +226,7 @@ function initCanvas() {
   var element = document.createElement("div");
   element.setAttribute("display", "inline-block");
   element.setAttribute("float", "left");
+  element.setAttribute("style", "display: none;");
 
   var tableEntry = document.createElement("td");
 

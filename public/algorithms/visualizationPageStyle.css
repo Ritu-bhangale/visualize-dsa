@@ -22,13 +22,13 @@ body {
 }
 
 .VisualizationMainPage #algoControlSection {
-  background: #d0d7ff;
+  background: #FFFAFF;
   color: #000000;
-  border-radius: 0.8rem;
+  border-radius: 2px;
 }
 
 .VisualizationMainPage #generalAnimationControlSection {
-  background: #d0d7ff;
+  background: #FFFAFF;
   color: #000;
   border-radius: 0.8rem;
 }
@@ -117,14 +117,26 @@ EM {
   margin-right: 55px;
 }
 
+input[type="text"] {
+  height: 2rem;
+  border-radius: 1px;
+  border: #004E89 solid 1px;
+  width: 10vw;
+  padding: 0.1vh 0.5vw;
+  color: #004E89;
+  background: white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+}
+
 input[type="button"] {
   height: 2rem;
-  border-radius: 0.5rem;
-  border: none;
+  border-radius: 1px;
+  border: #004E89 solid 1px;
   padding: 0 0.5rem;
-  color: #f50057;
+  color: #004E89;
   background: white;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease;
   cursor: pointer;
 }
